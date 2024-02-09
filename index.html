@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="left-element">
+        <div class="banner">
+            <img src="odin-lined.png" alt="odin" class="odin">
+            <h1 id="title">ODIN</h1>
+        </div>
+        <h2>Photo by Halie West on Unsplash</h2>
+        <img src="halie-west-25xggax4bSA-unsplash.jpg" alt="Nature" class="responsive">
+    </div>
+
+    <div id="right-element">
+       <div id="top">
+        <h1>This is not a real online service! You know you need something <br>
+            like this in your life to help you realize your deepest dreams. <br> 
+            Sign up <em>now</em> to get started.<br><br>
+            You <em>know</em> you want to.</h1>
+
+       </div>
+       <div id="middle">
+        <p id="subtitle">Let's do this!</p>
+        <form>
+            <div class="col">
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name" required>
+             </div>
+
+             <div class="col">
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name" required>
+            </div>
+<br>
+             <div class="col">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="col">
+               <label for="phone_number">Phone Number</label>
+               <input type="number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="phone_number" name="phone_number" placeholder=" 123-456-7890" required>
+           </div>
+           <div class="col">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" required>
+          </div>
+          <div class="col">
+             <label for="password">Confirm Password</label>
+             <input type="password" id="password" name="password" required>
+         </div>
+
+        </div>
+      
+       <div id="bottom">
+            <button id="button" type="submit">Create Account</button><br>
+            <p>Already have an account? <a href="#">Log in</a></p>
+       </div>
+    </form>
+</body>
+</html>
